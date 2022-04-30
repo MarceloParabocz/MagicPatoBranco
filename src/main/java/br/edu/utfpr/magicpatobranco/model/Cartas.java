@@ -19,7 +19,7 @@ public class Cartas {
     private UUID id;
 
     @Column(unique = true)
-    private String nome;
+    private String name;
 
     @Column(precision = 2)
     private Double value;
